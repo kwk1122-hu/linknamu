@@ -2,9 +2,9 @@ import Image from "next/image";
 
 // 보여 주기용 더미 데이터. 실제 내용은 나중에 교체한다.
 const profile = {
-  name: "김클로",
-  bio: "세계 최강 바이브코더",
-  imageSrc: "/profile-placeholder.svg",
+  name: "김개발",
+  bio: "풀스택 개발자 | 요즘에는 AI개발에 관심이 많아요",
+  imageSrc: "https://placehold.co/144x144/orange/white/png",
 };
 
 const links = [
@@ -25,7 +25,7 @@ export default function Home() {
           height={144}
           priority
         />
-        <h1 className="mt-5 text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
+        <h1 className="mt-5 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
           {profile.name}
         </h1>
         <p className="mt-2 text-base text-zinc-600 dark:text-zinc-400">
